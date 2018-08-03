@@ -1,0 +1,32 @@
+{
+  "name": "@pixi/filter-ascii",
+  "version": "2.5.0",
+  "main": "lib/filter-ascii.js",
+  "description": "PixiJS v4 filter to render DisplayObject as ASCII text",
+  "author": "Mat Groves",
+  "contributors": [
+    "Matt Karl <matt@mattkarl.com>"
+  ],
+  "module": "lib/filter-ascii.es.js",
+  "types": "types.d.ts",
+  "homepage": "http://pixijs.com/",
+  "bugs": "https://github.com/pixijs/pixi-filters/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixijs/pixi-filters.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "types.d.ts"
+  ],
+  "peerDependencies": {
+    "pixi.js": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tools/fragments": "^2.0.0"
+  }
+}
